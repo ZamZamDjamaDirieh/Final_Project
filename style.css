@@ -8,7 +8,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
 }
 :root{
     --couleur-principale: #f9004d;
@@ -17,6 +17,7 @@ body{
 
 header{
     margin: 20px;
+    background-color: white;
 }
 header div.container{
     width: 100%;
@@ -35,6 +36,7 @@ header div.logo{
    /* padding: 15px 10px;*/
     border-radius: 100%;
     font-size: 20px;
+    margin: 10px;
 }
 div.contenu{
     width: 60%;
