@@ -15,7 +15,7 @@
         margin:0;
     }
     header div.logo{
-        width: 13vw;
+        width: 10vw;
         margin: 10px;
     }
     header div.logo:hover{
@@ -26,7 +26,7 @@
     div.contenu ul{
         flex-direction: column;
         align-items: flex-end;
-        margin: 10px;
+        margin: 10px 15px;
         /*border: 1px solid black;*/
     }
     div.contenu ul li a:hover{
