@@ -118,10 +118,10 @@ section.s2 div.conteneur{
 }
 section.s2 div.conteneur div.content{
    /* border: 1px solid black;*/
-    width: 28%;
-    height: 55vh;
-    padding: 15px;
-    margin-bottom: 50px;
+    width: 45%;
+    height: 60vh;
+    padding: 20px;
+    margin: 10px 15px;
     box-shadow: 0 0 5px black;
 }    
 section.s2 div.conteneur div.circle{
@@ -160,6 +160,7 @@ section.s3 div.s3-content{
 section.s3 div.s3-content div.text h3{
     margin-bottom: 20px;
     letter-spacing: 2px;
+    text-align: center;
 }
 section.s3 div.s3-content div.text p{
     text-align: justify;
@@ -242,7 +243,7 @@ section.s4 div.s4-content div.s4-bloc div.developer span{
    
 }
 section.s4 div.s4-content div.s4-bloc div.developer p{
-    margin-top: 30px;
+    margin: 10px 5px;
     opacity: 0.5;
     font-size: 15px;
     line-height: 30px;
@@ -350,7 +351,11 @@ div.form-box div.form div.input-box div.input2 button{
     color: rgba(255, 255, 255, 0.762);
     background-color: var(--couleur-principale);
 }
-
+div.form-box div.form div.input-box div.input2 button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.762);
+    color: #f9004d;
+}
 div.form-box div.form div.imag {
     display: flex;
     justify-content: center;
